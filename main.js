@@ -80,3 +80,9 @@ persons.age = 50;
 persons.city = "Volgograd";
 console.log(persons); 
 person={ name: "Stas" }; 
+
+let newPrice;
+newPrice = 99.99;
+console.log("Значение: " + newPrice + ", Тип: " + typeof newPrice);
+newPrice = "99.99 рублей";
+console.log("Значение: " + newPrice + ", Тип: " + typeof newPrice);
