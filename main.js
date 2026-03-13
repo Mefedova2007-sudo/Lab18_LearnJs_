@@ -110,3 +110,36 @@ console.log(true + 1);
 log(false + 1) ; 
 console.log(null + 1); 
 console.log(undefined + 1);  
+
+console.log(5 == "5");
+console.log(5 === "5"); 
+console.log(0 == false); 
+console.log(0 === false);
+console.log(null == undefined); 
+console.log(null === undefined);
+
+let obj1= { name: "John" };
+let obj2= { name: "John" };
+console.log(obj1 == obj2); 
+console.log(obj1 === obj2);
+
+let obj3 =obj1; 
+console.log(obj1 === obj3); 
+
+let arr1 = [1, 2, 3];
+let arr2 = [1, 2, 3];
+console.log(arr1 === arr2); 
+let x1 = 10;
+let y1 = 2;
+console.log("x1 + y1 =", x1 + y1);
+console.log("x1 - y1 =", x1 - y1);
+console.log("x1 * y1 =", x1 * y1);
+console.log("x1 / y1 =", x1 / y1);
+
+x1 = "10";
+
+console.log("\nПосле изменения x1 на строку:");
+console.log("x1 + y1 =", x1 + y1); 
+console.log("x1 - y1 =", x1 - y1); 
+console.log("x1 * y1 =", x1 * y1); 
+console.log("x1 / y1 =", x1 / y1); 
