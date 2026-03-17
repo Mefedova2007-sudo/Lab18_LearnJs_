@@ -143,3 +143,59 @@ console.log("x1 + y1 =", x1 + y1);
 console.log("x1 - y1 =", x1 - y1); 
 console.log("x1 * y1 =", x1 * y1); 
 console.log("x1 / y1 =", x1 / y1); 
+
+let yourAge = 18;
+if (yourAge >= 18) {
+console.log("Доступ разрешён");
+} else {
+console.log("Доступ запрещён");
+}
+
+temperature = 15; 
+if (temperature < 0) {
+    console.log("Холодно");
+} else if (temperature >= 0 && temperature <= 20) {
+    console.log("Прохладно");
+} else {
+    console.log("Тепло");
+}
+
+let isLoggedIn = true;
+let isAdmin = false;
+
+if (!isLoggedIn) {
+    console.log("Доступ запрещён");
+} else if (isAdmin) {
+    console.log("Полный доступ");
+} else {
+    console.log("Ограниченный доступ");
+}
+console.log(5 == "5");   
+console.log(5 === "5");  
+
+console.log(0 == false);   
+console.log(0 === false);  
+
+console.log(null == undefined);  
+console.log(null === undefined);  
+
+let monthNumber = 7;
+let monthName;
+
+switch (monthNumber) {
+    case 1: monthName = "Январь"; break;
+    case 2: monthName = "Февраль"; break;
+    case 3: monthName = "Март"; break;
+    case 4: monthName = "Апрель"; break;
+    case 5: monthName = "Май"; break;
+    case 6: monthName = "Июнь"; break;
+    case 7: monthName = "Июль"; break;
+    case 8: monthName = "Август"; break;
+    case 9: monthName = "Сентябрь"; break;
+    case 10: monthName = "Ноябрь"; break;
+    case 11: monthName = "Ноябрь"; break;
+    case 12: monthName = "Декабрь"; break;
+    default: monthName = "Ошибка: введите число от 1 до 12";
+}
+
+console.log(monthName);
